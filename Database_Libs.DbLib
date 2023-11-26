@@ -1,0 +1,64 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\mtupi\Documents\AD22\Library\Component_DB.accdb;Persist Security Info=False
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=1
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Capacitor
+[Table1]
+SchemaName=
+TableName=Capacitor
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Capacitance Tolerance0=138|Manufacturer Part Number0=160|Manufacturer0=103|Case/Package0=93|Mounting Style0=102|Octopart URL0=92|Capacitance0=85|Voltage Rating (DC)0=124|_Name0=132|Library Ref0=77|Footprint Ref0=92|Library Path0=139|Footprint path0=151|Description0=187|Technology0=83|Lifecyle0=60
+[Table2]
+SchemaName=
+TableName=Resistor
+Enabled=True
+UserWhere=0
+UserWhereText=[Manufacturer Part Number] = '{Manufacturer Part Number}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=131|Description0=199|Manufacturer Part Number0=160|Footprint path0=143|ID0=34|Manufacturer0=93|Case/Package0=93|Mounting Style0=102|Octopart URL0=92|Power Rating0=92|Resistance0=77|Resistance Tolerance0=130|Voltage Rating (DC)0=124|_Name0=117|Technology0=83|Lifecyle0=60
+[FieldMap1]
+Options=FieldName=Capacitor.Manufacturer Part Number|TableNameOnly=Capacitor|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Capacitor.Library Ref|TableNameOnly=Capacitor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Capacitor.Footprint Ref|TableNameOnly=Capacitor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Capacitor.Library Path|TableNameOnly=Capacitor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Capacitor.Footprint path|TableNameOnly=Capacitor|FieldNameOnly=Footprint path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Capacitor.Description|TableNameOnly=Capacitor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Resistor.Library Ref|TableNameOnly=Resistor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Resistor.Footprint Ref|TableNameOnly=Resistor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Resistor.Library Path|TableNameOnly=Resistor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Resistor.Description|TableNameOnly=Resistor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Resistor.Manufacturer Part Number|TableNameOnly=Resistor|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Resistor.Footprint path|TableNameOnly=Resistor|FieldNameOnly=Footprint path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
