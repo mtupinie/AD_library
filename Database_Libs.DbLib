@@ -19,25 +19,19 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Diode
+LastFocusedTable=Transistor
 [Table1]
 SchemaName=
 TableName=Capacitor
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Manufacturer Part Number0=160|Library Ref0=77|Footprint Ref0=92|Library Path0=139|Footprint path0=151|Description0=187|ID0=34|Capacitance Tolerance0=138|Manufacturer0=103|Case/Package0=93|Mounting Style0=102|Octopart URL0=92|Capacitance0=85|Voltage Rating (DC)0=124|_Name0=57|Technology0=83|Lifecyle0=60
 [Table2]
 SchemaName=
 TableName=Diode
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=34|If current0=70|Manufacturer0=104|Case/Package0=93|Mounting Style0=102|Octopart URL0=92|Forward voltage0=107|Break down voltage0=125|Power dissipation0=115|_Name0=106|Library Ref0=157|Footprint Ref0=92|Library Path0=124|Footprint path0=136|Description0=292|Technology0=83|Lifecyle0=60|Manufacturer Part Number0=160
 [Table3]
 SchemaName=
 TableName=Resistor
@@ -47,6 +41,15 @@ UserWhereText=[Manufacturer Part Number] = '{Manufacturer Part Number}'
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
 BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=131|Description0=199|Manufacturer Part Number0=160|Footprint path0=143|ID0=34|Manufacturer0=93|Case/Package0=93|Mounting Style0=102|Octopart URL0=92|Power Rating0=92|Resistance0=77|Resistance Tolerance0=130|Voltage Rating (DC)0=124|_Name0=57|Technology0=83|Lifecyle0=60
+[Table4]
+SchemaName=
+TableName=Transistor
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=34|Manufacturer Part Number0=160|Manufacturer0=93|Case/Package0=93|Mounting Style0=102|Octopart URL0=92|_Name0=93|Library Ref0=114|Footprint Ref0=92|Library Path0=141|Footprint path0=141|Description0=244|Technology0=83|Lifecycle0=65
 [FieldMap1]
 Options=FieldName=Capacitor.Manufacturer Part Number|TableNameOnly=Capacitor|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -83,3 +86,15 @@ Options=FieldName=Resistor.Description|TableNameOnly=Resistor|FieldNameOnly=Desc
 Options=FieldName=Resistor.Manufacturer Part Number|TableNameOnly=Resistor|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
 Options=FieldName=Resistor.Footprint path|TableNameOnly=Resistor|FieldNameOnly=Footprint path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=Transistor.Manufacturer Part Number|TableNameOnly=Transistor|FieldNameOnly=Manufacturer Part Number|FieldType=0|ParameterName=Manufacturer Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=Transistor.Library Ref|TableNameOnly=Transistor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=Transistor.Footprint Ref|TableNameOnly=Transistor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=Transistor.Library Path|TableNameOnly=Transistor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=Transistor.Footprint path|TableNameOnly=Transistor|FieldNameOnly=Footprint path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=Transistor.Description|TableNameOnly=Transistor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
